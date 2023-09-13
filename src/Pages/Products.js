@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import React from 'react'
 import axios from 'axios'
 import ProductCard from "../CommonComponents/ProductCard"
+import ProductData from '../Data/ProductData'
 
 export default function Products() {
   const [post, setPost] = useState([])
@@ -20,7 +21,7 @@ export default function Products() {
   console.log(post)
   return (
     <>
-      <ProductCard/>
+      <ProductCard data={ProductData}/>
       <ProductCard/>
     </>
   )

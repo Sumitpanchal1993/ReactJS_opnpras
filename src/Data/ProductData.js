@@ -1,4 +1,4 @@
-const productData = [
+const ProductData = [
     {
       imagesrc:
         'https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
@@ -26,4 +26,4 @@ const productData = [
   ];
 
 
-  export default productData
+  export default ProductData

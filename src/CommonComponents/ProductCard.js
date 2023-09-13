@@ -3,7 +3,8 @@ import './ProductCard.css'
 import productData from '../Data/ProductData'
 
 
-function ProductCard() {
+function ProductCard(props) {
+  // console.log(props.data.title)
   return (
     <><div style={{display:'flex', justifyContent:'center'}}>
       {productData.map((item) => (
